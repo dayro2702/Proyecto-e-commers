@@ -59,7 +59,7 @@ document.getElementById("botonInicioSesion").addEventListener("click", InicioSes
 window.addEventListener("resize", AnchoPagina)
 AnchoPagina()
 
-formularioRegistro.addEventListener("submit", function(e){
+FormularioRegistro.addEventListener("submit", function(e){
     e.preventDefault();
 
     const nombre = document.getElementById("nombreRegistro").value;
@@ -88,7 +88,7 @@ formularioRegistro.addEventListener("submit", function(e){
     formularioRegistro.reset();
 });
 
-formularioLogin.addEventListener("submit", function(e){
+FormularioLogin.addEventListener("submit", function(e){
     e.preventDefault();
 
     const correo = document.getElementById("correoLogin").value;
