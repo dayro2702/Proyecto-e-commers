@@ -7,7 +7,7 @@
     font-family: "Roboto", sans-serif; /* Fuente general */
 }
 body{
-    background-image: url(../img/fondo_goalzone.jpeg); /* Imagen de fondo de la página */
+    background-image: url(../Imagenes/fondo_goalzone.jpeg); /* Imagen de fondo de la página */
     background-size: cover; /* La imagen cubre toda la pantalla */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen */
@@ -122,6 +122,10 @@ main{
 .FormularioInicio{
     opacity: 1; /* Totalmente visible */
     display: block; /* Se muestra */
+    
+}
+button{
+    margin-left: 25%;
 }
 
 .FormularioRegistro{

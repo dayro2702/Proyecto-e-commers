@@ -109,7 +109,7 @@ FormularioInicio.addEventListener("submit", function(e){
 
     alert("Bienvenido " + usuario.nombre);
 
-    //window.location.href = "";
+    window.location.href = "../HTML/index.html";
 
     } else {
     // verificar si el correo existe

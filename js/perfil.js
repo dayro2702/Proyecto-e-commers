@@ -3,7 +3,7 @@ const usuario = JSON.parse(
 );
 
 if(!usuario){
-    window.location.href = "contrato.html";
+    window.location.href = "../HTML/micuenta.html";
 }
 
 document.getElementById("nombre").textContent =
@@ -93,8 +93,6 @@ document.getElementById("cerrarSesion")
     localStorage.removeItem(
         "usuarioActivo"
     );
-
-    window.location.href =
-    "";
+    window.location.href ="../HTML/index.html";
 
 });
